@@ -1,0 +1,11 @@
+body{
+    /* background-color: rgba(61, 4, 231, 0.533) */
+    background-image: url("/styles/src/imagens/risoto_de_camarao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    h1{
+    color: #ff0000
+}
+
