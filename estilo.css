@@ -1,0 +1,63 @@
+table {
+    width: 500px;
+    border: 1px solid red
+    ;
+}
+
+th, td {
+    border: 1px solid rgb(25, 0, 255);
+    padding: 8px;
+    text-align: center;
+}
+table th {
+  color: red;
+}
+table td{
+    color:blueviolet;
+}
+
+img {
+  width: 200px;   
+  height: 200px ;   
+}
+
+body {
+    background-color: beige;
+}
+
+
+p{
+    color: hotpink;
+}
+
+
+h1 {
+    color: hotpink;
+}
+h1:hover{
+    color: yellow
+}
+
+h3{
+    color: brown;
+}
+
+
+nav a {
+  color: lawngreen;           
+  padding: 20px;
+}
+nav a:hover {
+  color: yellow;          
+}
+
+
+#mensagem{
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    text-align: left;
+    vertical-align: top;
+    margin-right: 10px;
+    height: 100px
+}

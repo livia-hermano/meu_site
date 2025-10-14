@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <header id="Início"> 
+        <h1>Lívia Hermano</h1>
+        <nav>
+            <a href="#sobre mim"> Sobre</a>
+            <a href="#habilidade"> Habilidades</a>
+            <a href="#contato"> Contato</a>
+        </nav>
+    </header>
+   
+    <main>
+        <section id="sobre mim"> 
+            <h2> Sobre Mim</h2>
+            <img src="src/img/sobree_mim.jpeg" alt="gatenho">
+            <p> Sou uma estudante do curso de desenvolvimento de sistemas do SENAI</p>
+            <article id="Experiência">
+                <h3>Experiência Principal</h3>
+                <h4>Projeto atual: Estudo - SENAI</h4>
+                <p>Agora estou trabalhando em um projeto com foco em estudo para a prova da matéria de linguagem de marcação.</p>
+            </article>
+            <hr>
+        </section>
+        <section id="habilidade">
+            <h3>Habilidades Principais</h3>
+            <table class="minha-tab">
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível de Experiência</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Péssimo</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Péssimo</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                </tr>
+            </table>
+        </section>
+        
+    </main>
+
+    <aside>
+        <section id="contato"></section>
+        <h5>Contato</h5>
+        <form action="processa.php" method="post">
+            <label for="email" >Email:</label>
+            <input type="email" id="email" name="email" required>
+        </form>
+        <form action="processa.ph" method="post">
+            <label for="mensagem" id="mensagem"> Mensagem:</label>
+            <input type="textarea" name="mensagem" required id="mensagem">
+        </form>
+    </aside>
+
+    <footer>
+        <hr>
+        Lívia Hermano - 2025
+    </footer>
+</body>
+</html>
