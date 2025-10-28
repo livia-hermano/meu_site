@@ -55,3 +55,18 @@ ol {
     /* 01, 02, 03... */
     padding-left: 2rem;
 }
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 1.5rem;
+}
+th, td {
+padding: 0.75rem; /* Usa rem para espaçamento */
+text-align: left;
+border-bottom: 1px solid #0d0101;
+}
+th {
+background-color: #000000;
+font-weight: bold;
+}
