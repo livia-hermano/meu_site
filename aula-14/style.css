@@ -1,36 +1,57 @@
-*{
+* {
     font-family: Orbitron, sans-serif;
     font-style: normal;
     color: blueviolet;
 }
 
-.classe_links:link{
+.classe_links:link {
     color: rgb(194, 232, 5);
 }
 
-.classe_links:visited{
+.classe_links:visited {
     color: brown;
 }
 
-.classe_links:hover{
+.classe_links:hover {
     color: aquamarine;
 }
 
-.classe_links:active{
+.classe_links:active {
     color: blue;
 }
 
 .imagem-post {
-max-width: 100%;
-height: auto;
-display: block;
-margin-bottom: 1rem; /* Usa rem para espaçamento consistente */
-border-radius: 8px; /* Cantos suavemente arredondados */
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+    /* Usa rem para espaçamento consistente */
+    border-radius: 8px;
+    /* Cantos suavemente arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
 }
+
 .avatar {
-width: 100px;
-height: 100px;
-border-radius: 50%;
-border: 3px solid white;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #00f2ff;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    /* 01, 02, 03... */
+    padding-left: 2rem;
+}
