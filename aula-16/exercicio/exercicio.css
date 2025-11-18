@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+.content-wrapper{
+    border: 2px dashed #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.main-content{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 17px;
+    border: 3px solid #333;
+    margin: 10px;
+}
+
+.sidebar{
+    position: absolute;
+    left: 210px;
+    top: 106px ;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 3px solid #333;
+    margin: 10px;
+}
+
+.site-footer{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li a{
+    color: rgb(175, 8, 8);
+     text-decoration: none;
+}
