@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    display: grid;
+    min-height: 100vh;
+    /* Mantemos a estrutura fixa do layout principal por enquanto */
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "aside  main"
+        "footer footer";
+    gap: 15px;
+}
+
+.header {
+    grid-area: header;
+    background-color: #012e5a;
+    color: white;
+    padding: 15px;
+}
+
+.sidebar {
+    grid-area: aside;
+    background-color: #ecc6c6;
+    padding: 20px;
+    align-self: start;
+}
+
+.content {
+    grid-area: main;
+    background-color: #ce8181;
+    padding: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #103a65;
+    color: #7ba4cc;
+    padding: 20px;
+}
+
